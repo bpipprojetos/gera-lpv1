@@ -1,0 +1,2 @@
+- [x] Regerar imagem da seção SuccessStory removendo as lágrimas (expressão natural de felicidade)
+- [x] Atualizar componente SuccessStory com a nova imagem

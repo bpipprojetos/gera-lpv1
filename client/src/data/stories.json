@@ -1,0 +1,92 @@
+[
+  {
+    "id": 17,
+    "names": "Gabriella e Augusto",
+    "age": "37 e 38 anos",
+    "location": "São Paulo, SP",
+    "story": "Após 4 anos tentando e enfrentando endometriose e fator masculino, encontramos no Dr. Joji a seriedade e o amor que buscávamos. Desde a primeira consulta, nos sentimos acolhidos. A coleta resultou em 6 embriões e, após a transferência de um congelado, recebemos nosso positivo! Hoje celebramos a vida da Maitê Maria, nossa filha tão amada. Gratidão eterna à equipe GERA.",
+    "doctor": "Prof. Dr. Joji Ueno",
+    "image": "/images/story-gabriella-augusto.png",
+    "type": "hetero"
+  },
+  {
+    "id": 16,
+    "names": "Malba e Aline",
+    "age": "35 e 38 anos",
+    "location": "São Paulo, SP",
+    "story": "Iniciamos nossa jornada em 2018 com o Dr. Joji, cheias de esperança. Optamos pela doação compartilhada, felizes em ajudar outras mulheres enquanto realizávamos nosso sonho. O processo teve seus desafios e pausas, inclusive pela pandemia, mas confiamos no tempo de Deus. Retomamos em 2021 e fomos presenteadas com o Miguel, nosso ser iluminado. Gratidão eterna à equipe GERA!",
+    "doctor": "Prof. Dr. Joji Ueno",
+    "image": "/images/story-fernanda-julian.png",
+    "type": "lesbian"
+  },
+  {
+    "id": 15,
+    "names": "Ketleyn Quadros",
+    "age": "37 anos",
+    "location": "Porto Alegre, RS",
+    "story": "Como atleta olímpica, adiar a maternidade foi uma escolha profissional, mas eu sabia que o tempo biológico não espera. Fiz o congelamento de óvulos na GERA, conciliando treinos e consultas à distância. O resultado foi incrível: 17 óvulos congelados! Hoje me sinto livre para competir sabendo que meu sonho de ser mãe está preservado. É meu 'backup' para o futuro.",
+    "doctor": "Equipe GERA",
+    "image": "/images/story-ketleyn-quadros.png",
+    "type": "congelamento"
+  },
+  {
+    "id": 14,
+    "names": "Carol e Carlos",
+    "age": "30 e 32 anos",
+    "location": "São Paulo, SP",
+    "story": "A caxumba causou azoospermia no Carlos, um diagnóstico devastador. Na GERA, a Dra. Lorena nos guiou. Carlos fez a micro-TESE e, após horas de busca, encontraram espermatozoides! Eu tratei mioma e adenomiose. Tínhamos apenas dois embriões. A primeira transferência nos trouxe o Mateus. Nossa história prova que a infertilidade masculina tem solução.",
+    "doctor": "Dra. Lorena Urbanetz",
+    "image": "/images/story-carol-carlos.png",
+    "type": "hetero"
+  },
+  {
+    "id": 13,
+    "names": "Fernanda e Julián",
+    "age": "34 e 36 anos",
+    "location": "São Paulo, SP",
+    "story": "Após dois anos tentando e uma cirurgia no útero, procuramos o Dr. Fábio Ikeda. Na primeira FIV, tivemos um beta positivo que não evoluiu. Foi um momento de angústia, mas nossa fé nos manteve firmes. Não desistimos. Na tentativa seguinte, finalmente recebemos a notícia que tanto sonhávamos. Hoje, o Matias tem 1 ano e 5 meses e é a prova de que a resiliência e o amor vencem tudo.",
+    "doctor": "Prof. Dr. Fábio Ikeda",
+    "image": "/images/story-fernanda-julian.png",
+    "type": "hetero"
+  },
+  {
+    "id": 1,
+    "names": "Mariana e Ricardo",
+    "age": "34 e 36 anos",
+    "location": "Belo Horizonte, MG",
+    "story": "Depois de 3 anos tentando engravidar e dois diagnósticos inconclusivos em nossa cidade, encontramos a Clínica GERA. O atendimento híbrido foi fundamental. A Dra. Lorena Urbanetz nos acolheu com tanto carinho na primeira consulta online que sentimos que estávamos no lugar certo. O concierge organizou toda nossa estadia em SP para a captação. Hoje, com o Lucas nos braços, só temos a agradecer.",
+    "doctor": "Dra. Lorena Urbanetz",
+    "image": "/images/story-gabriella-augusto.png",
+    "type": "hetero"
+  },
+  {
+    "id": 2,
+    "names": "Carlos e André",
+    "age": "38 e 40 anos",
+    "location": "São Paulo, SP",
+    "story": "O sonho da paternidade parecia distante até conhecermos o Prof. Dr. Joji Ueno. Ele nos explicou com clareza todo o processo de barriga solidária e ovodoação. A equipe jurídica nos deu total segurança. O momento em que ouvimos o coração da nossa filha pela primeira vez foi indescritível. Obrigado a toda equipe GERA por tratar nossa família com tanto respeito e amor.",
+    "doctor": "Prof. Dr. Joji Ueno",
+    "image": "/images/story-carol-carlos.png",
+    "type": "gay"
+  },
+  {
+    "id": 3,
+    "names": "Fernanda e Beatriz",
+    "age": "35 e 33 anos",
+    "location": "Rio de Janeiro, RJ",
+    "story": "Queríamos participar juntas da gestação (método ROPA). A Dra. Marise Samama foi incrível, entendendo nosso desejo de compartilhar cada etapa. O concierge nos ajudou a conciliar as consultas com nosso trabalho no Rio. A Bia gestou o óvulo da Fê, e hoje a pequena Sofia tem um pouquinho de nós duas. Gratidão eterna!",
+    "doctor": "Profª. Dra. Marise Samama",
+    "image": "/images/story-ketleyn-quadros.png",
+    "type": "lesbian"
+  },
+  {
+    "id": 4,
+    "names": "Patrícia e Roberto",
+    "age": "42 e 45 anos",
+    "location": "Campinas, SP",
+    "story": "Aos 42 anos, muitos diziam que seria impossível com meus próprios óvulos. O Dr. Fábio Ikeda não nos deu falsas esperanças, mas nos apresentou caminhos reais. Sua honestidade e competência técnica foram decisivas. Após o segundo ciclo, o positivo veio! O cuidado da enfermagem durante as injeções fez toda a diferença.",
+    "doctor": "Prof. Dr. Fábio Ikeda",
+    "image": "/images/story-carol-carlos.png",
+    "type": "hetero"
+  }
+]
