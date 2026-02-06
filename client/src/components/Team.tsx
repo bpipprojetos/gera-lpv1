@@ -89,10 +89,11 @@ export default function Team() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-full md:w-1/3 lg:w-1/4">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-md border-4 border-white">
-                <img 
-                  src={doctors[0].image} 
-                  alt={doctors[0].name} 
+                <img
+                  src={doctors[0].image}
+                  alt={doctors[0].name}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -103,17 +104,17 @@ export default function Team() {
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold text-[#1A1A1A]">{doctors[0].name}</h3>
               </div>
-              
+
               <div className="flex flex-wrap gap-3 mb-4">
                 <span className="text-[#4B73FF] font-semibold bg-blue-100 px-3 py-1 rounded-full text-sm">{doctors[0].crm}</span>
                 <span className="text-[#FF8E63] font-semibold bg-orange-50 px-3 py-1 rounded-full text-sm">{doctors[0].role}</span>
               </div>
-              
+
               <div className="text-[#008F7A] font-medium mb-4 flex items-center gap-2">
                 <GraduationCap size={18} />
                 {doctors[0].specialty}
               </div>
-              
+
               <p className="text-gray-600 leading-relaxed text-lg">
                 {doctors[0].description}
               </p>
@@ -126,16 +127,17 @@ export default function Team() {
           {doctors.slice(1).map((doctor, index) => (
             <div key={index} className="bg-white rounded-2xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group hover:-translate-y-1">
               <div className="aspect-[4/3] overflow-hidden relative">
-                <img 
-                  src={doctor.image} 
-                  alt={doctor.name} 
+                <img
+                  src={doctor.image}
+                  alt={doctor.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <span className="text-white font-medium">Saiba mais</span>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="bg-[#4B73FF] p-1.5 rounded-full text-white flex-shrink-0">
@@ -143,13 +145,13 @@ export default function Team() {
                   </div>
                   <h3 className="text-xl font-bold text-[#1A1A1A] line-clamp-1">{doctor.name}</h3>
                 </div>
-                
+
                 <div className="text-[#4B73FF] text-sm font-semibold mb-2">{doctor.crm}</div>
-                
+
                 <div className="bg-green-50 text-[#008F7A] text-xs font-medium px-2 py-1 rounded-md inline-block mb-3">
                   {doctor.specialty}
                 </div>
-                
+
                 <p className="text-gray-500 text-sm leading-relaxed line-clamp-4">
                   {doctor.description}
                 </p>
@@ -157,7 +159,7 @@ export default function Team() {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 bg-[#F8F9FA] rounded-2xl p-8 text-center border border-gray-200">
           <h3 className="text-xl font-bold text-[#1A1A1A] mb-3">Colaboração com Profissionais de Todo o Brasil</h3>
           <p className="text-gray-600 max-w-3xl mx-auto">

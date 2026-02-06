@@ -14,6 +14,7 @@ export default function EmotionalConnection() {
           src="/images/hero-gera-BdYELDgW.jpg"
           alt="Mãe e bebê em momento de carinho"
           className="w-full h-full object-cover"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1A1A1A]/90 via-[#1A1A1A]/70 to-transparent"></div>
       </div>

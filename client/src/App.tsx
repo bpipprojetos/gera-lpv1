@@ -1,22 +1,28 @@
+import { Suspense, lazy } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "@/pages/Home";
-import { PrivacyPolicy } from "@/pages/PrivacyPolicy";
 
+// Lazy load secondary pages
+const NotFound = lazy(() => import("@/pages/NotFound"));
+// PrivacyPolicy is a named export, so we need to handle it a bit differently or use the pattern:
+// import("@/pages/PrivacyPolicy").then(module => ({ default: module.PrivacyPolicy }))
+const PrivacyPolicy = lazy(() => import("@/pages/PrivacyPolicy").then(module => ({ default: module.PrivacyPolicy })));
 
 function Router() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/politica-privacidade" component={PrivacyPolicy} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
+    <Suspense fallback={null}>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/politica-privacidade" component={PrivacyPolicy} />
+        <Route path="/404" component={NotFound} />
+        {/* Final fallback route */}
+        <Route component={NotFound} />
+      </Switch>
+    </Suspense>
   );
 }
 
@@ -30,7 +36,7 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
+      // switchable
       >
         <TooltipProvider>
           <Toaster />

@@ -11,6 +11,7 @@ export default function SuccessStory() {
                 src="/images/philosophy-real.jpg"
                 alt="Casal feliz segurando ultrassom"
                 className="w-full h-auto object-cover"
+                loading="lazy"
               />
             </div>
           </div>

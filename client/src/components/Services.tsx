@@ -50,28 +50,31 @@ export default function Services() {
             <div className="lg:w-1/2 bg-[#1e3a8a] p-4 md:p-6 grid grid-cols-2 gap-4 content-center">
               {/* Top Left: Microscope (Technology focus) */}
               <div className="relative h-40 sm:h-48 rounded-xl overflow-hidden shadow-lg border-2 border-white/10 group">
-                <img 
-                  src="/images/lab-microscope.png" 
-                  alt="Microscópio de alta precisão" 
+                <img
+                  src="/images/lab-microscope.png"
+                  alt="Microscópio de alta precisão"
                   className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
               </div>
-              
+
               {/* Top Right: Incubator (Portrait) */}
               <div className="relative h-40 sm:h-48 rounded-xl overflow-hidden shadow-lg border-2 border-white/10 group">
-                <img 
-                  src="/images/lab-incubator.png" 
-                  alt="Incubadora Time-Lapse" 
+                <img
+                  src="/images/lab-incubator.png"
+                  alt="Incubadora Time-Lapse"
                   className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
                 />
               </div>
 
               {/* Bottom: Team Screen (Landscape) */}
               <div className="col-span-2 relative h-48 sm:h-56 rounded-xl overflow-hidden shadow-lg border-2 border-white/10 group">
-                <img 
-                  src="/images/lab-team-screen.png" 
-                  alt="Equipe analisando embriões" 
+                <img
+                  src="/images/lab-team-screen.png"
+                  alt="Equipe analisando embriões"
                   className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -81,7 +84,7 @@ export default function Services() {
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Nosso laboratório conta com equipamentos de última geração e segue rigorosos padrões internacionais de qualidade. Certificado e licenciado, realiza cada procedimento com extrema precisão e cuidado, alcançando taxas de fertilização superiores à média nacional.
               </p>
-              
+
               <div className="grid grid-cols-1 gap-6">
                 <div className="bg-blue-50 p-4 rounded-xl">
                   <div className="text-3xl font-bold text-[#4B73FF] mb-1">80%</div>
@@ -95,8 +98,8 @@ export default function Services() {
         {/* Service Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 group hover:-translate-y-1"
             >
               <div className={`${service.color} w-14 h-14 rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-blue-100 group-hover:scale-110 transition-transform duration-300`}>

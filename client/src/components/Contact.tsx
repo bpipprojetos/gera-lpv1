@@ -33,7 +33,7 @@ export default function Contact() {
                 <p className="text-gray-600 mb-8 leading-relaxed">
                   Centro de excelência e referência nacional em reprodução assistida desde 1993. Equipada com laboratório de última geração e equipe altamente especializada.
                 </p>
-                
+
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
                     <MapPin className="text-[#FF8E63] mt-1 flex-shrink-0" />
@@ -42,7 +42,7 @@ export default function Contact() {
                       <p className="text-gray-500">Jardim Paulista - São Paulo - SP, 01409-001</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center gap-4">
                     <Clock className="text-[#FF8E63] flex-shrink-0" />
                     <p className="font-medium text-gray-900">Segunda a Sexta: 8h às 18h</p>
@@ -50,7 +50,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mt-8">
-                  <Button 
+                  <Button
                     onClick={handleTypebotRedirect}
                     className="w-full md:w-auto h-14 bg-[#4B73FF] hover:bg-blue-700 text-white rounded-xl text-lg font-semibold shadow-lg hover:shadow-xl transition-all px-8"
                   >
@@ -58,15 +58,15 @@ export default function Contact() {
                   </Button>
                 </div>
               </div>
-              
+
               <div className="lg:w-1/2 h-80 lg:h-auto bg-gray-200 relative">
-                <iframe 
-                  src="https://maps.google.com/maps?q=Rua%20Peixoto%20Gomide%2C%20515%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo&t=&z=17&ie=UTF8&iwloc=&output=embed" 
-                  width="100%" 
-                  height="100%" 
-                  style={{ border: 0 }} 
-                  allowFullScreen 
-                  loading="lazy" 
+                <iframe
+                  src="https://maps.google.com/maps?q=Rua%20Peixoto%20Gomide%2C%20515%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="absolute inset-0"
                 ></iframe>
@@ -86,7 +86,7 @@ export default function Contact() {
               <p className="text-blue-100 text-lg mb-8">
                 Fundada em 1993, somos referência nacional em medicina reprodutiva, unindo experiência, tecnologia e cuidado humano
               </p>
-              
+
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
                   "32 anos de experiência",
@@ -105,17 +105,18 @@ export default function Contact() {
                 ))}
               </div>
             </div>
-            
+
             <div className="lg:w-1/2">
               <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20">
                 <p className="text-2xl font-serif italic mb-6 leading-relaxed">
                   "Transformar sonhos em realidade é o que nos move todos os dias"
                 </p>
                 <div className="flex items-center gap-4">
-                  <img 
-                    src="/images/dr-joji-ueno-CAxQqgsy.jpg" 
-                    alt="Dr. Joji Ueno" 
+                  <img
+                    src="/images/dr-joji-ueno-CAxQqgsy.jpg"
+                    alt="Dr. Joji Ueno"
                     className="w-16 h-16 rounded-full object-cover border-2 border-white"
+                    loading="lazy"
                   />
                   <div>
                     <div className="font-bold text-lg">Prof. Dr. Joji Ueno</div>
@@ -141,18 +142,18 @@ export default function Contact() {
             <p className="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
               Dê o primeiro passo para realizar seu sonho com todo carinho e profissionalismo que você merece.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
+              <Button
                 onClick={handleTypebotRedirect}
                 className="h-16 bg-[#4B73FF] hover:bg-blue-700 text-white rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all px-10"
               >
                 Quero dar meu primeiro passo
               </Button>
-              
-              <Button 
+
+              <Button
                 onClick={handleTypebotRedirect}
-                variant="outline" 
+                variant="outline"
                 className="h-16 border-green-500 text-green-600 hover:bg-green-50 rounded-full text-lg font-semibold px-10 gap-2"
               >
                 <MessageCircle size={24} />

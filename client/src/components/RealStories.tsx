@@ -26,6 +26,9 @@ export default function RealStories() {
                     src={story.image}
                     alt={`Foto de ${story.names}`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    width="400"
+                    height="300"
                   />
                 </div>
                 <div className="absolute -bottom-4 right-6 bg-[#4B73FF] text-white p-3 rounded-full shadow-lg">
