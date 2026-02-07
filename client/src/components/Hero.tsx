@@ -48,7 +48,7 @@ export default function Hero() {
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-700">
               <div className="absolute inset-0 bg-gradient-to-t from-[#4B73FF]/20 to-transparent z-10 mix-blend-overlay"></div>
               <img
-                src="/images/hero-gera-BdYELDgW.jpg"
+                src="/images/hero-science.jpg"
                 alt="Tecnologia de Reprodução Assistida - ICSI"
                 className="w-full h-auto object-cover min-h-[500px] lg:min-h-[600px]"
                 fetchPriority="high"
