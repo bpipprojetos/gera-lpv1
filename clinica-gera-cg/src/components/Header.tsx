@@ -22,10 +22,10 @@ export function Header() {
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center gap-4">
           <Link href="/">
-            <img 
-              src="/images/logo-labfiv-marca.png" 
-              alt="LabFIV Reprodução Assistida" 
-              className="h-16 w-auto cursor-pointer object-contain" 
+            <img
+              src="/images/logo-clinica-gera-Cnp0HDOd.png"
+              alt="Clínica GERA"
+              className="h-16 w-auto cursor-pointer object-contain"
             />
           </Link>
           <div className="hidden sm:flex flex-col border-l pl-4 border-gray-200">

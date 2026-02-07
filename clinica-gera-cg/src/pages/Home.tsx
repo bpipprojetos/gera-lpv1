@@ -9,17 +9,17 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@cg/components/ui/accordion";
-import { 
-  Baby, 
-  Calendar, 
-  CheckCircle2, 
-  Clock, 
-  Heart, 
-  Microscope, 
-  Stethoscope, 
-  TestTube2, 
-  Users, 
-  Video 
+import {
+  Baby,
+  Calendar,
+  CheckCircle2,
+  Clock,
+  Heart,
+  Microscope,
+  Stethoscope,
+  TestTube2,
+  Users,
+  Video
 } from "lucide-react";
 
 export default function Home() {
@@ -140,7 +140,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-gray-900">
       <Header />
-      
+
       <main className="flex-1">
         {/* Hero Section */}
         <section id="hero" className="relative py-20 md:py-32 overflow-hidden bg-gradient-to-b from-blue-50 to-white">
@@ -164,14 +164,14 @@ export default function Home() {
                 <p className="text-base font-semibold text-primary/90 bg-blue-50 inline-block px-4 py-2 rounded-lg border border-blue-100">
                   Clínica em Campo Grande - Atendimento Online e Presencial
                 </p>
-                
+
 
               </div>
               <div className="relative animate-in slide-in-from-right-10 duration-700 fade-in delay-200">
                 <div className="absolute -inset-4 bg-blue-200/30 rounded-full blur-3xl opacity-70"></div>
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/jxcqzHlWEqAQxozf.png" 
-                  alt="Tecnologia de fertilização in vitro" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/jxcqzHlWEqAQxozf.png"
+                  alt="Tecnologia de fertilização in vitro"
                   className="relative rounded-2xl shadow-2xl w-full object-cover aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl max-w-xs hidden md:block">
@@ -259,9 +259,9 @@ export default function Home() {
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/xEzJvAsvztkvdxZV.png" 
-                  alt="História de sucesso" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/xEzJvAsvztkvdxZV.png"
+                  alt="História de sucesso"
                   className="rounded-2xl shadow-xl w-full object-cover aspect-square md:aspect-[4/3]"
                 />
               </div>
@@ -317,13 +317,13 @@ export default function Home() {
             <div className="mt-16 bg-blue-900 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
               <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-blue-800 rounded-full opacity-50 blur-3xl"></div>
               <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-blue-500 rounded-full opacity-30 blur-3xl"></div>
-              
+
               <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">
                     Serviços Laboratoriais Completos
                   </h3>
-                  
+
                   <div className="grid sm:grid-cols-2 gap-x-8 gap-y-8">
                     <div>
                       <h4 className="font-bold text-lg mb-4 text-blue-200 flex items-center gap-2">
@@ -387,20 +387,20 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                  <img 
-                    src="/images/lab-microscope.png" 
-                    alt="Microscópio LABFIV" 
+                  <img
+                    src="/images/lab-microscope.png"
+                    alt="Microscópio LABFIV"
                     className="w-full h-auto rounded-xl shadow-lg"
                   />
-                  <img 
-                    src="/images/lab-incubator.png" 
-                    alt="Incubadora LABFIV" 
+                  <img
+                    src="/images/lab-incubator.png"
+                    alt="Incubadora LABFIV"
                     className="w-full h-auto rounded-xl shadow-lg"
                   />
                   <div className="col-span-2">
-                    <img 
-                      src="/images/lab-analysis.png" 
-                      alt="Análise Laboratorial" 
+                    <img
+                      src="/images/lab-real.png"
+                      alt="Análise Laboratorial"
                       className="w-full h-auto rounded-xl shadow-lg"
                     />
                   </div>
@@ -415,14 +415,14 @@ export default function Home() {
           <div className="container">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/jxcqzHlWEqAQxozf.png" 
-                  alt="Background" 
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/jxcqzHlWEqAQxozf.png"
+                  alt="Background"
                   className="w-full h-full object-cover opacity-20 scale-105 animate-pulse-slow"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-900/90 to-blue-800/80"></div>
               </div>
-              
+
               <div className="relative z-10 p-12 md:p-20 text-center">
                 <h3 className="text-3xl md:text-5xl font-heading font-bold text-white mb-6 leading-tight">
                   Não deixe seu sonho para depois.
@@ -446,9 +446,9 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <div className="absolute -inset-4 bg-white rounded-full blur-2xl opacity-60"></div>
-                <img 
-                  src="/images/lab-team.png" 
-                  alt="Equipe LABFIV" 
+                <img
+                  src="/images/lab-team-screen.png"
+                  alt="Equipe LABFIV"
                   className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
                 />
               </div>
@@ -489,22 +489,22 @@ export default function Home() {
                 <Card key={index} className="border-none shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group bg-white">
                   <div className="aspect-[4/5] w-full overflow-hidden relative">
 
-                    <img 
-                      src={doctor.image} 
-                      alt={doctor.name} 
+                    <img
+                      src={doctor.image}
+                      alt={doctor.name}
                       className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
                   <CardContent className="p-5 text-center relative z-20 bg-white flex flex-col h-full">
                     <h3 className="font-bold text-lg text-gray-900 mb-1">{doctor.name}</h3>
                     <p className="text-sm text-primary font-medium uppercase tracking-wide mb-2">{doctor.role}</p>
-                    
+
                     {doctor.miniBio && (
                       <p className="text-xs text-gray-500 font-mono mb-2 px-2 leading-tight min-h-[2.5em] flex items-center justify-center">
                         {doctor.miniBio}
                       </p>
                     )}
-                    
+
                     <p className="text-xs text-gray-500 font-mono mt-auto pt-2 border-t border-gray-100 w-full">{doctor.crm}</p>
                   </CardContent>
                 </Card>
@@ -520,9 +520,9 @@ export default function Home() {
                   <div key={index} className="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition-shadow text-center">
                     <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden border-2 border-white shadow-md bg-white">
                       {doctor.image ? (
-                        <img 
-                          src={doctor.image} 
-                          alt={doctor.name} 
+                        <img
+                          src={doctor.image}
+                          alt={doctor.name}
                           className="w-full h-full object-cover"
                           onError={(e) => {
                             e.currentTarget.style.display = 'none';
@@ -566,30 +566,30 @@ export default function Home() {
         {/* CTA de Alto Impacto 2 - Novo Design */}
         <section className="py-24 relative overflow-hidden">
           <div className="absolute inset-0">
-            <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/xEzJvAsvztkvdxZV.png" 
-              alt="Background Family" 
+            <img
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/xEzJvAsvztkvdxZV.png"
+              alt="Background Family"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-transparent"></div>
           </div>
-          
+
           <div className="container relative z-10">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-medium mb-8">
                 <Heart className="h-4 w-4 text-rose-400 fill-rose-400" />
                 Seu sonho é nossa missão
               </div>
-              
+
               <h2 className="text-4xl md:text-6xl font-heading font-bold text-white mb-8 leading-tight">
                 Não é apenas sobre medicina. <br />
                 <span className="text-rose-300">É sobre realizar o seu sonho de família.</span>
               </h2>
-              
+
               <p className="text-xl text-gray-200 mb-10 leading-relaxed max-w-xl">
                 Sabemos que a jornada pode ser desafiadora, mas você não precisa caminhar sozinha. Nossa equipe está pronta para acolher sua história e transformar esperança em vida.
               </p>
-              
+
               <Button asChild size="lg" className="rounded-full bg-blue-600 hover:bg-blue-700 text-white px-10 py-8 text-lg font-bold shadow-xl shadow-blue-900/20 border-none transform hover:scale-105 transition-all duration-300">
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                   Quero começar minha jornada agora
@@ -638,13 +638,13 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              
+
               <div className="order-1 md:order-2 flex justify-center">
                 <div className="relative">
                   <div className="absolute -inset-4 bg-blue-100 rounded-full blur-2xl opacity-60"></div>
-                  <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dr-joji-ueno.png" 
-                    alt="Dr. Joji Ueno" 
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dr-joji-ueno.png"
+                    alt="Dr. Joji Ueno"
                     className="relative rounded-2xl shadow-xl w-full max-w-md object-cover"
                   />
                   <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-white/50 text-center">
@@ -663,7 +663,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-12 text-center">
               Dúvidas Frequentes
             </h2>
-            
+
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left font-semibold text-gray-900">
