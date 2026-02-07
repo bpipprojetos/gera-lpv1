@@ -1,20 +1,22 @@
 import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "./lib/queryClient";
-import { Toaster } from "@/components/ui/sonner";
-import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Toaster } from "@cg/components/ui/sonner";
+import NotFound from "@cg/pages/NotFound";
+import { Route, Switch, Router as WouterRouter } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "@/pages/Home";
-import { PrivacyPolicy } from "@/pages/PrivacyPolicy";
+import Home from "@cg/pages/Home";
+import { PrivacyPolicy } from "@cg/pages/PrivacyPolicy";
 
 function Router() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/politica-privacidade" component={PrivacyPolicy} />
-      <Route component={NotFound} />
-    </Switch>
+    <WouterRouter base="/clinica-gera-cg">
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/politica-privacidade" component={PrivacyPolicy} />
+        <Route component={NotFound} />
+      </Switch>
+    </WouterRouter>
   );
 }
 

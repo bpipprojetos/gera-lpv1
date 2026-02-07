@@ -1,14 +1,14 @@
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import { Footer } from "@cg/components/Footer";
+import { Header } from "@cg/components/Header";
 
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@cg/components/ui/button";
+import { Card, CardContent } from "@cg/components/ui/card";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "@cg/components/ui/accordion";
 import { 
   Baby, 
   Calendar, 

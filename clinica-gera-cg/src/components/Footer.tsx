@@ -1,5 +1,5 @@
 import { MapPin, MessageCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@cg/components/ui/button";
 import { Link } from "wouter";
 
 export function Footer() {

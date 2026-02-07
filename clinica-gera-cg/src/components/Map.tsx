@@ -77,8 +77,8 @@
 /// <reference types="@types/google.maps" />
 
 import { useEffect, useRef } from "react";
-import { usePersistFn } from "@/hooks/usePersistFn";
-import { cn } from "@/lib/utils";
+import { usePersistFn } from "@cg/hooks/usePersistFn";
+import { cn } from "@cg/lib/utils";
 
 declare global {
   interface Window {

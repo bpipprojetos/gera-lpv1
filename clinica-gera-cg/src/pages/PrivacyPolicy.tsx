@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@cg/components/ui/button";
 import { Link } from "wouter";
 import { ArrowLeft } from "lucide-react";
 
