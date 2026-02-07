@@ -16,13 +16,17 @@ export default defineConfig({
     },
   },
   envDir: path.resolve(import.meta.dirname),
-  root: path.resolve(import.meta.dirname, "client"),
+  root: path.resolve(import.meta.dirname),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
     sourcemap: false,
     cssCodeSplit: true,
     rollupOptions: {
+      input: {
+        main: path.resolve(import.meta.dirname, "client/index.html"),
+        cg: path.resolve(import.meta.dirname, "clinica-gera-cg/index.html"),
+      },
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
@@ -47,13 +51,6 @@ export default defineConfig({
     fs: {
       strict: true,
       deny: ["**/.*"],
-    },
-    proxy: {
-      "/clinica-gera-cg": {
-        target: "http://localhost:3001",
-        changeOrigin: true,
-        secure: false,
-      },
     },
   },
 });

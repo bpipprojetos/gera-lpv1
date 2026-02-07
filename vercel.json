@@ -1,7 +1,11 @@
 {
     "rewrites": [
         {
-            "source": "/clinica-gera-cg/:path*",
+            "source": "/clinica-gera-cg",
+            "destination": "/clinica-gera-cg/index.html"
+        },
+        {
+            "source": "/clinica-gera-cg/(.*)",
             "destination": "/clinica-gera-cg/index.html"
         },
         {
