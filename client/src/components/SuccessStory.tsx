@@ -8,7 +8,7 @@ export default function SuccessStory() {
           <div className="lg:w-1/2">
             <div className="relative rounded-3xl overflow-hidden shadow-xl">
               <img
-                src="/images/philosophy-real.jpg"
+                src="/images/success-story-natural.jpg"
                 alt="Casal feliz segurando ultrassom"
                 className="w-full h-auto object-cover"
                 loading="lazy"

@@ -11,7 +11,7 @@ export default function EmotionalConnection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-gera-BdYELDgW.jpg"
+          src="/images/success-story-natural.jpg"
           alt="Mãe e bebê em momento de carinho"
           className="w-full h-full object-cover"
           loading="lazy"
