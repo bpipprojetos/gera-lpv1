@@ -170,7 +170,7 @@ export default function Home() {
               <div className="relative animate-in slide-in-from-right-10 duration-700 fade-in delay-200">
                 <div className="absolute -inset-4 bg-blue-200/30 rounded-full blur-3xl opacity-70"></div>
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/jxcqzHlWEqAQxozf.png"
+                  src="/images/labfiv-hero.png"
                   alt="Tecnologia de fertilização in vitro"
                   className="relative rounded-2xl shadow-2xl w-full object-cover aspect-[4/3] transform hover:scale-[1.02] transition-transform duration-500"
                 />
@@ -260,7 +260,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/xEzJvAsvztkvdxZV.png"
+                  src="/images/success-story.png"
                   alt="História de sucesso"
                   className="rounded-2xl shadow-xl w-full object-cover aspect-square md:aspect-[4/3]"
                 />
@@ -399,7 +399,7 @@ export default function Home() {
                   />
                   <div className="col-span-2">
                     <img
-                      src="/images/lab-real.png"
+                      src="/images/lab-analysis.png"
                       alt="Análise Laboratorial"
                       className="w-full h-auto rounded-xl shadow-lg"
                     />
@@ -416,7 +416,7 @@ export default function Home() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/jxcqzHlWEqAQxozf.png"
+                  src="/images/labfiv-hero.png"
                   alt="Background"
                   className="w-full h-full object-cover opacity-20 scale-105 animate-pulse-slow"
                 />
@@ -447,7 +447,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-white rounded-full blur-2xl opacity-60"></div>
                 <img
-                  src="/images/lab-team-screen.png"
+                  src="/images/lab-team.png"
                   alt="Equipe LABFIV"
                   className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
                 />
@@ -567,7 +567,7 @@ export default function Home() {
         <section className="py-24 relative overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/xEzJvAsvztkvdxZV.png"
+              src="/images/success-story.png"
               alt="Background Family"
               className="w-full h-full object-cover"
             />
