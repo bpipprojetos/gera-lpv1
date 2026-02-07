@@ -53,49 +53,49 @@ export default function Home() {
       name: "Dr. José Eduardo Silveira dos Santos",
       location: "Campo Grande",
       crm: "CRM-MS 1645",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dr.JoséEduardoSilveiradosSantos.jpg"
+      image: "/images/dr-jose-eduardo.jpg"
     },
     {
       name: "Dr. Augusto Mitsukuni Suguimoto",
       location: "Dourados",
       crm: "CRM-MS 1308",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dr.AugustoMitsukuniSuguimoto.jpg"
+      image: "/images/dr-augusto-suguimoto.jpg"
     },
     {
       name: "Dra. Isabela Monteiro de Barros Siqueira",
       location: "Dourados",
       crm: "CRM-MS 8520",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dra.IsabelaMonteirodeBarrosSiqueira.jpg"
+      image: "/images/dra-isabela-monteiro.jpg"
     },
     {
       name: "Dra. Karine Pedroso Santos",
       location: "Dourados",
       crm: "CRM-MS 4482",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dra.KarinePedrosoSantos.jpg"
+      image: "/images/dra-karine-pedroso.jpg"
     },
     {
       name: "Dr. Wankel Viola",
       location: "Três Lagoas",
       crm: "CRM-MS 6153",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dr.WankelViola.jpg"
+      image: "/images/dr-wankel-viola.jpg"
     },
     {
       name: "Dra. Lilian Ottoni Viola",
       location: "Três Lagoas",
       crm: "CRM-MS 9656",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dra.LilianOttoniViola.jpg"
+      image: "/images/dra-lilian-ottoni.jpg"
     },
     {
       name: "Dra. Sarah Sanches Franco",
       location: "Três Lagoas",
       crm: "CRM-MS 13439",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dra.SarahSanchesFranco.jpg"
+      image: "/images/dra-sarah-sanches.jpg"
     },
     {
       name: "Dra. Ana Beatriz Neves",
       location: "Rondonópolis",
       crm: "CRM-MT 14317",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/Dra.AnaBeatrizNeves.jpg"
+      image: "/images/dra-ana-beatriz.jpg"
     }
   ];
 
@@ -104,35 +104,35 @@ export default function Home() {
       name: "Dra. Klissia Pires",
       role: "Especialista em Reprodução Humana",
       crm: "CRM-MS 3830 | RQE 5743",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dra-klissia-hq.png",
+      image: "/images/dra-klissia-hq.png",
       miniBio: "Docente do curso de Pós-graduação em Reprodução Assistida do Instituto GERA"
     },
     {
       name: "Dr. Newton Ishikawa",
       role: "Especialista em Reprodução Humana",
       crm: "CRM-MS 2718 | RQE 398",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dr-newton-hq.png",
+      image: "/images/dr-newton-hq.png",
       miniBio: "Referência em medicina reprodutiva, o Dr. Newton traz anos de experiência e atualização constante. Seu compromisso é oferecer as tecnologias mais avançadas com a segurança e ética que seu sonho merece."
     },
     {
       name: "Dr. Rui Malta",
       role: "Especialista em Reprodução Humana",
       crm: "CRM-MS 4132 | RQE 3171",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dr-rui-hq.png",
+      image: "/images/dr-rui-hq.png",
       miniBio: "Graduação, residência e especialização em Reprodução Humana pela Faculdade de Medicina da USP de Ribeirão Preto"
     },
     {
       name: "Dra. Mariana Medina",
       role: "Especialista em Reprodução Humana",
       crm: "CRM-MS 8534 | RQE 6985",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dra-mariana-hq.png",
+      image: "/images/dra-mariana-hq.png",
       miniBio: "Ex-tentante e hoje mãe da Maria Luiza e da Lara, a Dra. Mariana entende profundamente a jornada de seus pacientes. Une sua experiência pessoal à expertise médica para acolher e realizar sonhos."
     },
     {
       name: "Dr. Oscar Medina",
       role: "Especialista em Reprodução Humana",
       crm: "CRM-MS 8649 | RQE 6083",
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dr-oscar-hq.png",
+      image: "/images/dr-oscar-hq.png",
       miniBio: "Com vasta experiência em cirurgias ginecológicas e reprodução, o Dr. Oscar oferece um suporte completo. Sua atuação é fundamental para preparar e otimizar as condições de saúde para a gravidez."
     }
   ];
@@ -643,7 +643,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="absolute -inset-4 bg-blue-100 rounded-full blur-2xl opacity-60"></div>
                   <img
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028241656/dr-joji-ueno.png"
+                    src="/images/dr-joji-ueno.png"
                     alt="Dr. Joji Ueno"
                     className="relative rounded-2xl shadow-xl w-full max-w-md object-cover"
                   />
