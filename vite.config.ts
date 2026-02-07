@@ -24,7 +24,7 @@ export default defineConfig({
     cssCodeSplit: true,
     rollupOptions: {
       input: {
-        main: path.resolve(import.meta.dirname, "client/index.html"),
+        main: path.resolve(import.meta.dirname, "index.html"),
         cg: path.resolve(import.meta.dirname, "clinica-gera-cg/index.html"),
       },
       output: {
